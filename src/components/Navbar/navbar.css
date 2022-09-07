@@ -1,0 +1,11 @@
+.nav {
+    color: #030031;
+    background-color: #FAB843 !important;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+.brand {
+    float: none;
+}

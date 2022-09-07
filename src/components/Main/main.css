@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Source Sans Pro",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #D8D8D8;
+    background-color: #030031;
+}
+
+form {
+    padding-top: 15em;
+}
+
+#inputField {
+    margin-bottom: 25px;
+    border: none;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 0.3em;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 25px;
+    border: none;
+    border-radius: 0.4em;
+    font-size: 28px;
+    cursor: pointer;
+    color: #030031;
+    background-color: #FAB843
+}
+
+.btn:hover {
+    background-color: #FAB843;
+}

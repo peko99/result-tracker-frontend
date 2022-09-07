@@ -1,0 +1,79 @@
+table {
+    padding-top: 15em;
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}
+
+
+form {
+    padding-top: 15em;
+}
+
+#inputField {
+    margin-bottom: 25px;
+    border: none;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 0.3em;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 25px;
+    border: none;
+    border-radius: 0.4em;
+    font-size: 28px;
+    cursor: pointer;
+    color: #030031;
+    background-color: #FAB843
+}
+
+.btn:hover {
+    background-color: #FAB843;
+}
